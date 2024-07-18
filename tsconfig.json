@@ -1,0 +1,30 @@
+{
+  "files": [],
+
+  "compilerOptions":{
+    "baseUrl":".",
+    "paths":{
+      "@/*": ["./src/*"]
+    },
+    "types":["unplugin-vue-macros/macros-global"],
+    "jsx":"preserve",
+  },
+  "vueCompilerOptions": {
+    "plugins":[
+      "@vue-macros/volar/define-model",
+      "@vue-macros/volar/define-props",
+      "@vue-macros/volar/define-props-refs",
+      "@vue-macros/volar/define-vmodel",
+      "@vue-macros/volar/define-slots",
+      "@vue-macros/volar/define-props",
+    ]
+  },
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ]
+}
