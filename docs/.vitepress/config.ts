@@ -51,7 +51,7 @@ export default defineConfig({
         items: [
           {text:'Button',link:'/components/button'},
           // {text:'Message',link:'/components/message'},
-          // {text:'Input',link:'/components/input'},
+          {text:'Input',link:'/components/input'},
           // {text:'Select',link:'/components/select'},
           // {text:'Switch',link:'/components/switch'},
           // {text:'Radio',link:'/components/radio'},
