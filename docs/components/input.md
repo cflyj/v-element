@@ -21,7 +21,7 @@ description: Input 组件的文档
 使用 size 属性改变输入框大小。 除了默认大小外，还有另外两个选项： **large**, **small**。
 
 <preview path="../demo/Input/Size.vue" title="不同尺寸文本框" description="不同尺寸文本框"></preview>
- 
+
 
 ## 复合型输入框
 

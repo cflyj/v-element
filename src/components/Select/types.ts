@@ -17,4 +17,5 @@ export interface SelectProps {
 export interface SelectEmits {
     (e:'change',value:string):void;
     (e:'update:modelValue',Value:string):void;
+    (e:'visible-change',value:boolean):void;
 }
